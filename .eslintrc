@@ -1,0 +1,32 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "tsconfig.json",
+    "sourceType": "module"
+  },
+  "plugins": ["@typescript-eslint/eslint-plugin", "react-refresh"],
+  "extends": [
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react-hooks/recommended",
+    "@fansy/eslint-config",
+    "plugin:prettier/recommended"
+  ],
+  "root": true,
+  "env": {
+    "node": true,
+    "jest": true
+  },
+  "ignorePatterns": [".eslintrc.js", ".prettierrc.js"],
+  "rules": {
+    "@typescript-eslint/interface-name-prefix": "off",
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/no-var-requires": "off",
+    "new-cap": "off",
+    "no-useless-constructor": "off",
+    "lines-between-class-members": "off",
+    "camelcase": "warn",
+    "no-shadow": "warn"
+  }
+}
