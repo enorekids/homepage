@@ -12,10 +12,10 @@ export function Banner() {
   };
 
   return (
-    <div className='w-full h-[500px] overflow-hidden relative mb-[80px]'>
+    <div className='w-full h-[500px] overflow-hidden relative mb-[80px] px-[80px]'>
       <img src={BannerImage} className='absolute inset-0' />
-      <div className='absolute left-20 top-[190px] font-bold text-[120px] text-white'>LIMINI</div>
-      <div className='max-w-[1440px] mx-auto relative'>
+      <div className='max-w-[1440px] mx-auto relative flex items-center h-full'>
+        <div className='font-bold text-[120px] text-white'>LIMINI</div>
         <div
           className='absolute right-[70px] top-[20px] flex gap-[10px] h-[20px] items-center text-white cursor-pointer'
           onClick={() =>
