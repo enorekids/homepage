@@ -5,8 +5,8 @@ export function Footer() {
   const language = useAppContext(x => x.language);
 
   const emailMap = {
-    [AppLanguage.EN_US]: 'E-mail :purchase@liminikids.com',
-    [AppLanguage.ZH_CN]: '电子邮箱 :purchase@liminikids.com',
+    [AppLanguage.EN_US]: 'E-mail: support@liminikids.com',
+    [AppLanguage.ZH_CN]: '电子邮箱: support@liminikids.com',
   };
 
   return (
